@@ -13,9 +13,11 @@ ino_project
 # Python byte-compiled / optimized
 __pycache__/
 *.py[cod]
-/blockly/arduino_compressed.js
-/blockly/blockly_compressed.js
-/blockly/blockly_uncompressed.js
-/blockly/blocks_compressed.js
-/blockly/msg/json/en.json
-/blockly/msg/json/qqq.json
+
+#blockly generated
+blockly/arduino_compressed.js
+blockly/blockly_compressed.js
+blockly/blockly_uncompressed.js
+blockly/blocks_compressed.js
+blockly/msg/json/en.json
+blockly/msg/json/qqq.json
