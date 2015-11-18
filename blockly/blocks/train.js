@@ -11,8 +11,8 @@ Blockly.Blocks['train_watch'] = {
 Blockly.Blocks['train_forward'] = {
     init: function() {
         this.appendDummyInput()
-            .appendField(new Blockly.FieldImage("http://www.icone-png.com/png/51/51376.png", 100, 100, "*"))
-            .appendField("Forward / Avancer");
+            .appendField(new Blockly.FieldImage("./img/train_forward.png", 30, 30, "*"))
+            .appendField("Forward");
         this.setPreviousStatement(true);
         this.setColour(120);
     }
@@ -21,39 +21,39 @@ Blockly.Blocks['train_forward'] = {
 Blockly.Blocks['train_brake'] = {
     init: function() {
         this.appendDummyInput()
-            .appendField(new Blockly.FieldImage("http://www.icone-png.com/png/7/7212.png", 100, 100, "*"))
-            .appendField("Brake / Freiner");
+            .appendField(new Blockly.FieldImage("./img/stop.png", 30, 30, "*"))
+            .appendField("Stop");
         this.setPreviousStatement(true);
-        this.setColour(0);
+        this.setColour(120);
     }
 };
 
 Blockly.Blocks['train_reverse'] = {
     init: function() {
         this.appendDummyInput()
-            .appendField(new Blockly.FieldImage("http://www.icone-png.com/png/51/51372.png", 100, 100, "*"))
-            .appendField("Reverse / Reculer");
+            .appendField(new Blockly.FieldImage("./img/train_forward.png", 30, 30, "*"))
+            .appendField("Reverse");
         this.setPreviousStatement(true);
-        this.setColour(210);
+        this.setColour(120);
     }
 }
 
 Blockly.Blocks['train_dingding'] = {
     init: function() {
         this.appendDummyInput()
-            .appendField(new Blockly.FieldImage("http://www.icone-png.com/png/21/20564.png", 100, 100, "*"))
+            .appendField(new Blockly.FieldImage("http://www.icone-png.com/png/21/20564.png", 30, 30, "*"))
             .appendField("Ding Ding");
         this.setPreviousStatement(true);
-        this.setColour(300);
+        this.setColour(290);
     }
 };
 
 Blockly.Blocks['train_woowoo'] = {
     init: function() {
         this.appendDummyInput()
-            .appendField(new Blockly.FieldImage("http://www.icone-png.com/png/50/50140.png", 100, 100, "*"))
+            .appendField(new Blockly.FieldImage("http://www.icone-png.com/png/50/50140.png", 30, 30, "*"))
             .appendField("Woo Woo");
         this.setPreviousStatement(true);
-        this.setColour(300);
+        this.setColour(290);
     }
 };
