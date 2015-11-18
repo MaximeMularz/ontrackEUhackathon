@@ -297,27 +297,39 @@ div.fixed {
             </table>
 
   </div>
-  <textarea id="content_arduino" class="content" readonly wrap="off"></textarea>
+  <textarea id="content_arduino" class="content" contenteditable='true' wrap="off"></textarea>
   <textarea id="content_xml" class="content" wrap="off"></textarea>
 
   <xml id="toolbox" style="display: none">
     
-    </category>
-    
-    <block type="tabname_driver"></block>
+    <category name="DRIVER" colour="210">
     <block type="train_forward"></block>
     <block type="train_brake"></block>
     <block type="train_reverse"></block>
+    </category>
+    <sep></sep>
+      
+    <category name="SOUND">
     <block type="train_dingding"></block>
     <block type="train_woowoo"></block>
-    
-    <block type="tabname_Sound"></block>
-
-
- 
-
-    <sep></sep>
+    <block type="tabname_Events"></block>
     </category>
+    <sep></sep>
+
+    <category name="CONTROL">
+    <block type="controls_if"></block>
+    <block type="controls_whileUntil"></block>
+    <block type="controls_repeat_ext"></block>
+    <block type="math_number"></block>
+    </category>
+    <sep></sep>
+
+    <category name="SENSORS">
+    <block type="yellow_button"></block>
+    <block type="green_button"></block>
+    </category>
+    <sep></sep>
+
   </xml>
 
 </body>

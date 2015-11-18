@@ -1,5 +1,4 @@
 goog.provide('Blockly.Arduino.train');
-
 goog.require('Blockly.Arduino');
 
 Blockly.Arduino.train_watch = function() {
@@ -59,3 +58,4 @@ function sendRaw(name, rawCodes, sizeOfRawCodes) {
 function ucfirst(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+

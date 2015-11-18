@@ -18,3 +18,13 @@ Blockly.Blocks['tabname_Sound'] = {
     
   }
 };
+
+Blockly.Blocks['tabname_Events'] = {
+  init: function() {
+    this.appendDummyInput()
+        .setAlign(Blockly.ALIGN_CENTRE)
+        .appendField("EVENTS         ");
+    this.setColour(290);
+    this.setTooltip('');
+  }
+};
